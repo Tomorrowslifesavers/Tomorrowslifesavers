@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tomorrows Lifesavers</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  padding: 80px 20px;
+  text-align: center;
+  background: white;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.tagline {
+  color: #777;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  background: #40e0d0;
+  color: white;
+  cursor: pointer;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.alt {
+  background: #ffffff;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.services div {
+  margin-bottom: 10px;
+}
+
+.contact input, .contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #eee;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Tomorrows Lifesavers</h1>
+  <p class="tagline">An initiative delivered by New Forest First Aid Training</p>
+  <p>Professional first aid and CPR training for schools, workplaces, and communities.</p>
+  <button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+    Get in Touch
+  </button>
+</header>
+
+<section>
+  <h2>About</h2>
+  <p>
+    Tomorrows Lifesavers provides high-quality first aid and CPR training designed to give people
+    the confidence and skills to respond in emergencies. We work with schools, businesses,
+    and community groups.
+  </p>
+</section>
+
+<section class="alt">
+  <h2>Services</h2>
+  <div class="services">
+    <div>✔ CPR Training</div>
+    <div>✔ First Aid Courses</div>
+    <div>✔ Workplace Safety Training</div>
+  </div>
+
+  <h3>Upcoming Sessions</h3>
+  <p>Contact us for the latest schedule.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+
+  <p>Email: your@email.com</p>
+  <p>Phone: 00000 000000</p>
+
+  <div class="contact">
+    <input type="text" placeholder="Your Name">
+    <input type="email" placeholder="Your Email">
+    <textarea placeholder="Your Message"></textarea>
+    <button>Send Message</button>
+  </div>
+</section>
+
+<footer>
+  <p>© Tomorrows Lifesavers</p>
+</footer>
+
+</body>
+</html>
